@@ -1,0 +1,390 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+}
+// @mixin{
+//   @media(max-width:480px){
+//     content;
+//   }
+// }
+
+.container1 {
+  margin: 0 auto;
+  width: 1210px;
+  height: 689px;
+  background: #11151b;
+}
+.green {
+  color: #5ca35b;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 84px;
+
+  align-items: center;
+}
+ul {
+  gap: 60px;
+  display: flex;
+}
+.box1 {
+  text-decoration: none;
+}
+.box1 h1 {
+  color: #ffffff;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+}
+.box1 p {
+  color: #6a7c95;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 129.8%;
+  align-items: center;
+}
+.box {
+  gap: 5em;
+  margin: 5em;
+  display: flex;
+}
+.box2 {
+  position: relative;
+  background-color: #273140;
+}
+.image1 {
+  position: absolute;
+  z-index: 1;
+  width: 400px;
+  height: 250px;
+  left: 3em;
+  top: 5em;
+}
+.image2 {
+  position: absolute;
+  z-index: 2;
+  width: 500px;
+  height: 330px;
+}
+.button1-page1 {
+  padding-left: 5em;
+  width: 320px;
+}
+.button1 {
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  border: none;
+  background: #5ca35b;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.box3,
+.box4 {
+  display: flex;
+  color: rgba(118, 134, 159, 0.8);
+}
+.box3 p,
+.box4 p {
+  padding: 20px;
+}
+.box-second {
+  display: flex;
+  background: #11151b;
+  padding-left: 4em;
+  padding-top: 10em;
+  gap: 3em;
+  padding-bottom: 15em;
+}
+.container3 {
+  height: 651px;
+  width: 1210px;
+  background-color: #1d242e;
+  color: #6a7c95;
+}
+.page3-h1 {
+  margin-top: 10em;
+  padding-top: 10em;
+  padding-bottom: 10px;
+}
+.otstup {
+  padding-left: 7.5em;
+}
+.page3-card {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+  color: #6a7c95;
+  padding-top: 5em;
+}
+.page3-card p {
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 12px;
+  padding-top: 1em;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.card1 h1,
+.card2 h1,
+.card3 h1 {
+  color: white;
+}
+
+.card1,
+.card2,
+.card3 {
+  border-radius: 10px;
+  width: 260px;
+  height: 240px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1em;
+  background-color: #273140;
+}
+.container4 {
+  width: 1210px;
+  height: 580px;
+  background: #11151b;
+}
+// }
+.box5 {
+  padding-top: 10em;
+  padding-left: 10em;
+}
+.page4-h2 h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+.page4-p p {
+  padding-bottom: 20px;
+  color: #6a7c95;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 142.8%;
+}
+.s {
+  padding-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+// .container5 {
+//   // width: 1210px;
+//   height: 50vh;
+//   // background-color: #273140 !important;
+// }
+.page5 h1 {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 50px;
+  font-size: 50px;
+  font-style: normal;
+
+  font-weight: bolder;
+}
+.page5 p {
+  padding-top: 3em;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  color: #6a7c95;
+  font-size: 20px;
+  line-height: 142.8%;
+}
+.final2 {
+  height: 300px;
+  position: relative;
+  top: 3em;
+  background-color: #273140;
+}
+.final1 {
+  position: relative;
+  top: 15em;
+  background-color: #181f29;
+  z-index: -1;
+}
+.final {
+  width: 1210px;
+  height: 455px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5em;
+  gap: 30px;
+  background-color: #273140;
+
+  // box-shadow: 0px 4px 19px 0px #212a38;
+}
+.container6 {
+  width: 100%;
+  height: 600px;
+  background-color: #11161e;
+}
+.card-main {
+  width: 73%;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 400px;
+  align-items: center;
+
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  margin: 0 auto;
+  color: #273140;
+  list-style: armenian;
+}
+.card4 {
+  border: #6a7c95 1px solid;
+  border-radius: 10px;
+  background-color: #273140;
+  width: 250px;
+  height: 317px;
+}
+.card4 h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  line-height: 36px;
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.card4 p {
+  text-transform: capitalize;
+
+  color: #6a7c95;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.card4 h5 {
+  text-align: center;
+  font-size: 15px;
+}
+.card4 .button-page5 {
+  text-align: center;
+  justify-content: center;
+  left: 20px;
+}
+.buttonn {
+  padding-top: 1em;
+  padding-left: 3em;
+}
+.button2 {
+  text-align: center;
+  align-items: center;
+  width: 180px;
+  height: 33px;
+  background-color: #6a7395;
+  border: none;
+
+  border-radius: 10px;
+}
+.button4,
+.button5,
+.button6 {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  border: none;
+  justify-items: center;
+  left: 20px;
+  // transform: scale(0.7);
+}
+.button4 {
+  background: #6a7395;
+}
+.button5 {
+  background: #6a9590;
+}
+.button6 {
+  background: #95936a;
+}
+.container7 {
+  width: 1210px;
+  height: 400px;
+  background: #181f29;
+}
+.page6 h1 {
+  width: 73%;
+  margin: 0 auto;
+  color: #ffffff;
+  font-style: normal;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.page6 p {
+  width: 73%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  color: #6a7c95;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.page7 {
+  padding-top: 10em;
+  padding-left: 10em;
+  top: 10em;
+}
+.page7 h1 {
+  font-size: 40px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 50px;
+}
+.page7 p {
+  letter-spacing: 1px;
+  color: #6a7c95;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+.icon-main {
+  padding-top: 3em;
+  padding-left: 7em;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.icon-main2 {
+  width: 1110px;
+  margin: 0 auto;
+}
